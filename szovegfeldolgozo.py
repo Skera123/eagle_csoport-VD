@@ -18,10 +18,16 @@ def szovegFordit(szöveg):
 """
 # Az eljárást készítette:
 def szovegFordit(szoveg):
+<<<<<<< HEAD
 fordSzoveg=""
 for x in range(len(szoveg)-1,-1,-1):
 fordSzoveg+=szoveg[x]
 	# Ide írd meg az eljárást!
+=======
+	fordSzoveg=""
+	for x in range(0,len(szoveg)-1,-1,-1):
+		fordSzoveg+=szoveg[X]
+>>>>>>> e4bd6ac5bf64a21b03dbb2936cf6ebc4198b2d5f
 	return fordSzoveg
 	
 # Az eljárást készítette:	
