@@ -29,12 +29,20 @@ fordSzoveg+=szoveg[x]
 		fordSzoveg+=szoveg[X]
 >>>>>>> e4bd6ac5bf64a21b03dbb2936cf6ebc4198b2d5f
 	return fordSzoveg
+	return	fordSzoveg
 	
 # Az eljárást készítette:	
 def szovegCsere(szoveg):
+<<<<<<< HEAD
 
 	# Ide írd meg az eljárást!
 	return ""
+=======
+	maganHango="aáéoóöőuúüű"
+	for x in range(0, len(magánHango)):
+	szoveg=szoveg.replace(maganHango)[x],"e");
+	return szoveg
+>>>>>>> a747155e084889737f92f63bf623b51ce949608d
 	
 # Az eljárást készítette:	
 def szovegParos(szoveg):
@@ -48,5 +56,5 @@ def szovegParatlan(szoveg):
 	return ""
 	
 # Itt kezdődik a főprogram
-szoveg=input("Írj be egy szöveget:")
+szoveg=input("Valamit írjááááá be:")
 print(szovegFordit(szoveg))
