@@ -46,12 +46,18 @@ def szovegCsere(szoveg):
 	
 # Az eljárást készítette:	
 def szovegParos(szoveg):
+<<<<<<< HEAD
 
 parosSzoveg = ""
 for x in range (0,len(szoveg)2):
 parosSzoveg += szoveg [x]
 
 	# Ide írd meg az eljárást!
+=======
+	parosSzoveg = ""
+	for x in range (0,len(szoveg),2):
+		parosSzoveg+= szoveg[x]
+>>>>>>> 72171231cbce1a498829d3ab6083b4795568c639
 	return parosSzoveg
 	
 # Az eljárást készítette:	
