@@ -18,11 +18,15 @@ def szovegFordit(szöveg):
 """
 # Az eljárást készítette:
 def szovegFordit(szoveg):
+fordSzoveg=""
+for x in range(len(szoveg)-1,-1,-1):
+fordSzoveg+=szoveg[x]
 	# Ide írd meg az eljárást!
-	return ""
+	return fordSzoveg
 	
 # Az eljárást készítette:	
 def szovegCsere(szoveg):
+
 	# Ide írd meg az eljárást!
 	return ""
 	
@@ -33,6 +37,7 @@ def szovegParos(szoveg):
 	
 # Az eljárást készítette:	
 def szovegParatlan(szoveg):
+
 	# Ide írd meg az eljárást!
 	return ""
 	
