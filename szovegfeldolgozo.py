@@ -39,5 +39,5 @@ def szovegParatlan(szoveg):
 	return ""
 	
 # Itt kezdődik a főprogram
-szoveg=input("Írj be egy szöveget:")
+szoveg=input("Valamit írjááááá be:")
 print(szovegFordit(szoveg))
